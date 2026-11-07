@@ -1,5 +1,5 @@
 #!/bin/sh
-TARGET="https://modulo-01-dos-mduque-jcvelasquez.onrender.com/"
+TARGET="https://cliente-lan-mduque-jcvelasquez.onrender.com/"
 
 echo "=== SIMULACIÓN: GENERANDO TRÁFICO MASIVO HTTP ==="
 for i in $(seq 1 30); do
