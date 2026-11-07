@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Dirección del servidor objetivo en la DMZ
-TARGET="https://cliente-lan-mduque-jcvelasquez.onrender.com/"
+TARGET="https://modulo-03-fuerza-bruta-rutas-mduque.onrender.com/"
 
 # Diccionario reducido de rutas sensibles para la prueba
 RUTAS="/admin /config.php /login /secret /backup.zip /index.html"

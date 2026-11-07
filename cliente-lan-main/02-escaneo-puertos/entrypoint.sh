@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Dirección del servidor objetivo en la DMZ
-HOST="https://cliente-lan-mduque-jcvelasquez.onrender.com/"
+HOST="https://modulo-02-escaneo-puertos-mduque.onrender.com/"
 
 echo "=== INICIANDO ESCANEO DE PUERTOS Y RECONOCIMIENTO EN LA DMZ ==="
 echo "Analizando puertos comunes..."
