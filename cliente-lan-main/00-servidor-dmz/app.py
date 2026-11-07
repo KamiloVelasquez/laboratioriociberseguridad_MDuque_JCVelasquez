@@ -8,7 +8,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         
         # Personalizar con el nombre del estudiante / grupo
-        estudiante = os.getenv("MDuque_JCVelasquez", "El profe Esteban♪/ Grupo: Los Magnificos (Team BBBB)")
+        estudiantes = os.getenv("MDuque_JCVelasquez", "El profe Esteban♪/ Grupo: Los Magnificos (Team BBBB)")
         
         html_content = f"""
         <!DOCTYPE html>
@@ -28,7 +28,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
                 <h1>🛡️ Servidor Objetivo DMZ</h1>
                 <p>Estado del servicio: <span class="status">ONLINE / ACTIVO</span></p>
                 <hr>
-                <p><strong>Laboratorio de Ciberseguridad:</strong> {estudiante}</p>
+                <p><strong>Laboratorio de Ciberseguridad:</strong> {estudiantes}</p>
                 <p>Este nodo actúa como objetivo central para las pruebas de tráfico y análisis de logs.</p>
             </div>
         </body>
