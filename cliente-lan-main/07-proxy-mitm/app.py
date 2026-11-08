@@ -15,6 +15,8 @@ def mitm_proxy(path):
     print(f"[CABECERAS INTERCEPTADAS] {dict(request.headers)}", flush=True)
 
     # 2. Construir la URL de destino evitando la doble barra '//'
+    ## url = f"{TARGET_DMZ}/{path}" if path else f"{TARGET_DMZ}/"
+    TARGET_DMZ = "https://cliente-lan-mduque-jcvelasquez.onrender.com"
     url = f"{TARGET_DMZ}/{path}" if path else f"{TARGET_DMZ}/"
 
     try:
